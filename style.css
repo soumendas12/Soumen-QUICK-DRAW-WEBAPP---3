@@ -1,0 +1,48 @@
+body{
+    background-color: greenyellow;
+}
+h1{
+   font-family:'Courier New', Courier, monospace;
+    background-color: cornsilk;
+    color: blue;
+  }
+  #show_sketch{
+    float: right;
+  }
+  #score{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 5px;
+  }
+  #timer{
+    float: right;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 5px;
+  }
+  p{
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+  }
+  #sketch_to_be_drawn{
+    color: red;
+  }
+  canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 1px, 1px, 38px grey;}
+    to {box-shadow: 1px, 1px, 38px rgb(255, 102, 102);}
+}
+p{
+padding-top: 10px;
+font-size: 25px;
+}
